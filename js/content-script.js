@@ -1,0 +1,3 @@
+createGif();
+addMoveGif();
+addDragText();

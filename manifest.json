@@ -4,7 +4,7 @@
   "description": "TextExplorer is a prototype designed to improve children's literacy. Once installed, a GIF character appears at the bottom right of the browser, and when text is dragged over, it explains the meaning of the text in simple Korean, tailored for children aged 6 to 7.",
   "version": "0.1",
   "background" : {
-    "service_worker" : "background.js"
+    "service_worker" : "js/background.js"
   },
   "icons" : {
     "16" : "images/icon.png",
@@ -18,7 +18,7 @@
     {
       "matches": ["https://*/*"],
       "css" : ["my-styles.css"],
-      "js" : ["text-bubble.js","gif.js", "gpt-selected.js", "content-script.js"]
+      "js" : ["js/text-bubble.js","js/gif.js", "js/gpt.js", "js/content-script.js"]
     }
   ],
   "permissions": [
